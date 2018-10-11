@@ -241,7 +241,7 @@ jQuery(function ($) {
    $("#team-slider.swiper-container").swiper({
       spaceBetween: 0,
       slidesPerView: 2,
-      slidesPerColumn: 2,
+      slidesPerColumn: 1,
       controlBy: "slide",
       autoplay: 3500,
       breakpoints: {
