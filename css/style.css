@@ -3018,7 +3018,7 @@ ul.top-right li a:hover.instagram{
     transform: translate(-30px, 10px);
 }
 .cbp-item .overlay{
-   background: rgba(0,0,0,.95);
+   background: rgba(0,0,0,.7);
 }
 .cbp-item .overlay.light,
 .overlay.light{
@@ -5875,4 +5875,20 @@ footer p {
       margin-left: 5%;
       margin-right: 5%;
    }
-}   
+}
+
+/* Robert Alterations */
+
+.mobile_switcher > div:first-of-type > div {
+    display: none;
+}
+
+@media screen and (max-width: 480px){
+    .mobile_switcher > div:nth-of-type(2) > div {
+        display: none;
+    }
+
+    .mobile_switcher > div:first-of-type > div {
+        display: inherit;
+    }
+}

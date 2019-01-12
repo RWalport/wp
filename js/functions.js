@@ -246,13 +246,13 @@ jQuery(function ($) {
       autoplay: 3500,
       breakpoints: {
          320: {
-            slidesPerView: 1,
+            slidesPerView: 2,
          },
          480: {
-            slidesPerView: 1,
+            slidesPerView: 2,
          },
          768: {
-            slidesPerView: 1,
+            slidesPerView: 2,
          },
          900: {
             slidesPerView: 2,
@@ -677,13 +677,43 @@ jQuery(function ($) {
       gridAdjustment: "responsive",
       mediaQueries: [{
          width: 1500,
+         cols: 2,
+        }, {
+         width: 1100,
+         cols: 2,
+        }, {
+         width: 800,
+         cols: 2,
+        }, {
+         width: 480,
+         cols: 1,
+        }],
+      plugins: {
+         loadMore: {
+            element: "#gallery-work",
+            action: "click",
+            loadItems: 3,
+         }
+      },
+   });
+
+   $("#nospace-grid2").cubeportfolio({
+      layoutMode: "mosaic",
+      sortByDimension: true,
+      defaultFilter: "*",
+      animationType: "fadeOut",
+      gapHorizontal: 0,
+      gapVertical: 0,
+      gridAdjustment: "responsive",
+      mediaQueries: [{
+         width: 1500,
          cols: 4,
         }, {
          width: 1100,
-         cols: 4,
+         cols: 3,
         }, {
          width: 800,
-         cols: 3,
+         cols: 2,
         }, {
          width: 480,
          cols: 2,
