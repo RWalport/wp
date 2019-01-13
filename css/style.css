@@ -2222,7 +2222,7 @@ ul.top-right li a:hover.instagram{
 .team-slide .team-photo,
 .team-slide .team-text{
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: top;
     width: 50%;
     position: relative;
     z-index: 1;
@@ -2245,7 +2245,7 @@ ul.top-right li a:hover.instagram{
 }
 .team-slide .team-text{
     background: #fbfbfb;
-    padding:1rem 2rem;
+    padding: 50px 2rem;
     overflow: hidden;
 }
 .team-slide .team-text::before {
