@@ -677,13 +677,13 @@ jQuery(function ($) {
       gridAdjustment: "responsive",
       mediaQueries: [{
          width: 1500,
-         cols: 3,
+         cols: 4,
         }, {
          width: 1100,
-         cols: 3,
+         cols: 2,
         }, {
          width: 800,
-         cols: 3,
+         cols: 2,
         }, {
          width: 480,
          cols: 1,
