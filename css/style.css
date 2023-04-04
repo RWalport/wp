@@ -5879,6 +5879,16 @@ footer p {
 
 /* Robert Alterations */
 
+.intro-text h3 {
+    color: #ffffff;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.intro-text a {
+    text-decoration: underline;
+}
+
 .mobile_switcher > div:first-of-type > div {
     display: none;
 }
